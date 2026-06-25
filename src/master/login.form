@@ -146,11 +146,11 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="bMasuk3" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                          <Component id="bMasuk" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
                           <Component id="jLabel13" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="lUsername2" alignment="0" pref="344" max="32767" attributes="0"/>
-                          <Component id="lPassword2" alignment="0" pref="344" max="32767" attributes="0"/>
+                          <Component id="lUsername" alignment="0" pref="344" max="32767" attributes="0"/>
+                          <Component id="lPassword" alignment="0" pref="344" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace pref="17" max="32767" attributes="0"/>
                   </Group>
@@ -167,13 +167,13 @@
                       <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
                       <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="lUsername2" min="-2" pref="32" max="-2" attributes="0"/>
+                      <Component id="lUsername" min="-2" pref="32" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                       <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="lPassword2" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lPassword" min="-2" pref="30" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="bMasuk3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bMasuk" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -201,7 +201,7 @@
                 <Property name="text" type="java.lang.String" value="Password"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="lUsername2">
+            <Component class="javax.swing.JTextField" name="lUsername">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI" size="14" style="0"/>
@@ -218,10 +218,10 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="lUsername2ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="lUsernameActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="bMasuk3">
+            <Component class="javax.swing.JButton" name="bMasuk">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="33" green="0" red="66" type="rgb"/>
@@ -241,7 +241,7 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bMasuk3ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bMasukActionPerformed"/>
               </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel14">
@@ -253,7 +253,7 @@
                 <Property name="text" type="java.lang.String" value="Username"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JPasswordField" name="lPassword2">
+            <Component class="javax.swing.JPasswordField" name="lPassword">
               <Properties>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
